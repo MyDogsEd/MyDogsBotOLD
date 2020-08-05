@@ -1,0 +1,176 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "wTyRjLeMog26bsqMiNFsNyLwOGI",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "US",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "_Ak3eZWoaGVTonKJagMaG_dsYJU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "bW6P2YvLyZg"
+        },
+        "snippet": {
+          "publishedAt": "2017-07-01T19:06:34Z",
+          "channelId": "UC8p19gUXJYTsUPEpusHgteQ",
+          "title": "Google Sheets QUERY Function Tutorial - SELECT, WHERE, LIKE, AND, OR, LIMIT statements - Part 1",
+          "description": "Video tutorial series about QUERY function in Google Sheets. In this tutorial we'll cover how to use QUERY function in Google Sheets to pull filtered results out ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bW6P2YvLyZg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bW6P2YvLyZg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bW6P2YvLyZg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Learn Google Spreadsheets",
+          "liveBroadcastContent": "none",
+          "publishTime": "2017-07-01T19:06:34Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "sp5htTh1yKfhX5XvzRMYWrH6ALA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "LUL1nnxUz_c"
+        },
+        "snippet": {
+          "publishedAt": "2016-04-08T18:12:18Z",
+          "channelId": "UCeYUHG6o0YguM-g23htdsSw",
+          "title": "Access: Designing a Simple Query",
+          "description": "In this video, you'll learn the basics of designing a simple query in Access 2019, Access 2016, and Office 365.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LUL1nnxUz_c/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LUL1nnxUz_c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LUL1nnxUz_c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "GCFLearnFree.org",
+          "liveBroadcastContent": "none",
+          "publishTime": "2016-04-08T18:12:18Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "VZTrOjN_8Z7N1FU0BLhHY_qJTfc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "sLzhAasFXPk"
+        },
+        "snippet": {
+          "publishedAt": "2019-12-05T17:15:00Z",
+          "channelId": "UCfwTRhTSM2NyJImC8HeUd1Q",
+          "title": "How to Write A Bada$$ Query Letter (+ Querying Tips)",
+          "description": "Queries! They're how you get an agent. And getting an agent is how you traditionally publish a book. A query is a pitch for your book, a short letter you send to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sLzhAasFXPk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sLzhAasFXPk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sLzhAasFXPk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Alexa Donne",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-12-05T17:15:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "m7CFh74QrNkcnTkCySZA9_dIg2M",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCkafuNXptk_ILw0dnAUfGUw"
+        },
+        "snippet": {
+          "publishedAt": "2014-10-26T05:32:51Z",
+          "channelId": "UCkafuNXptk_ILw0dnAUfGUw",
+          "title": "Query",
+          "description": "I strive for unique, creative designs to encompass every client's needs. Check out http://query.design/ for more. For business or other inquiries, contact ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/-XVk5HEebT3s/AAAAAAAAAAI/AAAAAAAAAAA/v9ifm4TBKus/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/-XVk5HEebT3s/AAAAAAAAAAI/AAAAAAAAAAA/v9ifm4TBKus/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/-XVk5HEebT3s/AAAAAAAAAAI/AAAAAAAAAAA/v9ifm4TBKus/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            }
+          },
+          "channelTitle": "Query",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2014-10-26T05:32:51Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "pYyf26cifMFyAACO6Z0FEp7ZqVI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "6lBqYInBldk"
+        },
+        "snippet": {
+          "publishedAt": "2020-06-25T09:00:02Z",
+          "channelId": "UCJtUOos_MwJa_Ewii-R3cJA",
+          "title": "How Power Query Will Change the Way You Use Excel",
+          "description": "Limited Time Offer *** Complete Excel Power Query course: https://courses.xelplus.com/p/excel-power-query (Use PQLAUNCHYT to get your launch discount ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6lBqYInBldk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6lBqYInBldk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6lBqYInBldk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Leila Gharani",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-06-25T09:00:02Z"
+        }
+      }
+    ]
+  }
