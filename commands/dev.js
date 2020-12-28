@@ -1,12 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require('../config.js')
+const config = require('../config.js');
+const fs = require('fs')
+const token = JSON.parse(fs.readFileSync('./token.bottoken'))
 module.exports = {
     name: 'dev',
     description: 'Discord dev info, fresh from the farm!',
     usage: "dev",
     async execute(message, args, splitArgs){
-        if (client.user === null){await client.login(config.token)}
+        if (client.user === null){await client.login(token.token)}
         var infoMember;
         if (message.mentions.members.first() !== undefined){infoMember = message.mentions.members.first()}
         else{infoMember = message.member}

@@ -13,6 +13,7 @@
     "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.2.0",
     "node-fetch": "^2.6.0",
-    "ytdl-core": "^2.1.7"
+    "youtube-dl": "^3.0.2",
+    "ytdl-core": "^4.0.6"
   }
 }

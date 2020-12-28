@@ -9,6 +9,6 @@ module.exports = {
         message.channel.send(`Now Playing in \`${message.member.voice.channel.name}\``)
         var path = args.substring(args.indexOf('"') + 1, args.lastIndexOf('"'))
         var volume = parseFloat(splitArgs[1])
-        connection.play(path, {volume: volume}).catch(console.error(error))
+        connection.play(path, {volume: volume}).catch(console.error(Error))
     }
 }

@@ -2,10 +2,8 @@ const fs = require('fs');
 
 const Discord = require('discord.js');
 const config = require('./config.js');
-//const loadCommandFiles = require('./loadCommandFiles.js')
-//const randomStatus = require('./randomStatus.js')
+const token = JSON.parse(fs.readFileSync('./token.bottoken'))
 const functions = require('./functions.js')
-
 const client = new Discord.Client();
     
 client.commands = functions.loadCommandFiles('./commands')
@@ -32,7 +30,7 @@ client.on('message', async function(message) {
         console.log(error)}
 })
 
-client.login(config.token)
+client.login(token.token)
 
 /**
  * Oh you silly human,

@@ -4,14 +4,14 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 const config = require('./config.js')
-const { resolve } = require('path')
+const token = JSON.parse(fs.readFileSync('./token.bottoken'))
 
 
 const randomStatus = async function(){
     console.log('[RandomStatus] Random Status Requested')
     if(client.user === null){
         console.log('[RandomStatus] Client not logged in! Logging in...')
-        await client.login(config.token)
+        await client.login(token.token)
         console.log('[RandomStatus] Logged in!')
     }
     console.log('[RandomStatus] Loading ./randomStatusList.json')
@@ -48,7 +48,7 @@ let loadCommandFiles = function(dir) {
 }
 
 let isDev = async function(usr) {
-    if (client.user === null){await client.login(config.token)}
+    if (client.user === null){await client.login(token.token)}
     var usrInGuild = client.guilds.cache.get(config.homeGuild).members.cache.get(usr.id)
     if(usrInGuild === null){
         return false
@@ -60,7 +60,7 @@ let isDev = async function(usr) {
 }
 
 let serverAd = async function(message, adValue) {
-    if(client.user === null){await client.login(config.token)}
+    if(client.user === null){await client.login(token.token)}
 
     let homeGuild = await client.guilds.cache.get(config.homeGuild)
     var messageLast = await client.channels.cache.get('734518828264063058').messages.fetch({limit: 1}) //dont touch this or the other line. IDK either
@@ -93,6 +93,10 @@ let debugLog = function(message, debugVar) {
     if(debugVar === true) {
         console.log(message)
     }
+}
+
+let returnOldestInServer = function(guild) {
+    guild
 }
 exports.loadCommandFiles = loadCommandFiles
 exports.randomStatus = randomStatus
