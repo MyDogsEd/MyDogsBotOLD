@@ -1,3 +1,5 @@
+// This file is a mess.
+
 const fs = require('fs')
 
 const Discord = require('discord.js')
